@@ -1,10 +1,13 @@
 body {
   margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
+  font-family: 'Spartan', sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+  background: #ece9e6 no-repeat cover; /* fallback for old browsers */
+  background: -webkit-linear-gradient(to top, #ffffea, #ece9e6)
+    no-repeat cover; /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(to top, #ffffea, #ece9e6) no-repeat
+    cover; /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
 }
 
 code {
