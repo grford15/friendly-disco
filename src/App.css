@@ -4,5 +4,23 @@
   justify-items: center;
   text-align: center;
   flex-direction: column;
-  color: #2f4f6d;
+}
+
+header {
+  color: var(--main-txt-color);
+}
+input {
+  border: var(--black-color) solid 1px;
+  font-size: 0.8em;
+  padding: 0.3em 0.6em;
+  border-radius: 2px;
+  margin: 0 1em;
+}
+
+button {
+  border-radius: 3px;
+  background: var(--main-txt-color);
+  padding: 0.5em 0.7em;
+  color: var(--main-bg-color);
+  font-weight: 500;
 }
